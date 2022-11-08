@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;800&family=Island+Moments&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style-type: none; 
+    font-family: 'Dosis', sans-serif;
+}   
+.head-text {
+  display: block;
+}
+.nav {
+    display: block;
+} 
+.navbar {
+    display: none;
+} 
+.list-container {
+    display: none;
+} 
+.socials {
+    display: none;
+}
+.start-text h5{
+    text-align: start; 
+    padding-left: 220px; 
+    padding-top: 10px;
+}
+.start-section {
+    max-width: 1095px; 
+    margin: auto; 
+    padding-top: 20px;
+} 
+.text-image {
+    display: flex; 
+    gap: 43px;
+} 
+.head-text h2{
+   font-size: 30px;
+} 
+.head-buttons button{
+          border-radius: 25px; 
+          background-color: rgb(180, 180, 180); 
+          color: black; 
+          border: transparent; 
+          width: 100px;
+}
+/*H eader*/ 
+
+
+ .out-button button {
+    background-color: #fff; 
+    color: black; 
+    border: 1px solid aqua; 
+    border-radius: 30px; 
+    width: 90px; 
+    height: 30px;
+}  
+.out-button-next button {
+    background-color: #fff; 
+    color: black; 
+    border: 1px solid aqua; 
+    border-radius: 30px; 
+    width: 150px; 
+    height: 30px;
+} 
+.sign-button button {
+    background-color: rgb(33, 33, 210); 
+    color: white; 
+    border: 1px solid rgb(33, 33, 210); 
+    border-radius: 30px; 
+    width: 90px; 
+    height: 30px;
+}  
+.sign-button-next button {
+    background-color: rgb(33, 33, 210); 
+    color: white; 
+    border: 1px solid rgb(33, 33, 210); 
+    border-radius: 30px; 
+    width: 190px; 
+    height: 30px;
+} 
+nav {
+    display: flex; 
+    justify-content: space-evenly; 
+    padding-top: 2%;
+} 
+nav ul {
+    display: flex; 
+    justify-content: space-around;
+    text-decoration: none; 
+    gap: 40px; 
+    align-items: center;
+}  
+nav ul li a {
+    text-decoration: none; 
+    list-style-type: none; 
+    color: rgb(0, 0, 0); 
+    margin: 10px;
+} 
+.logo {
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+   
+}  
+
+.section-2 {
+    max-width: 1000px;
+} 
+.section-2 nav ul {
+    display: flex; 
+    
+}
+.section-2 nav {
+    justify-content: start; 
+    padding-left: 220px; 
+    padding-top: 30px;
+} 
+.text-col {
+    text-align: start; 
+    display: block; 
+    margin: 9px;
+} 
+.col {
+    display: block; 
+    max-width: 300px; 
+    min-height: auto; 
+    margin: auto;
+} 
+.image-col img {
+    width: 320px; 
+    height: 321px;
+}  
+.row{
+        display: flex;  
+        gap: 61px;
+        margin: 10px;
+ } 
+ .container {
+    padding-left: 220px;
+    max-width: 1000px; 
+ } 
+ .heshteg {
+    padding-left: 460px;
+    display: flex;  
+    gap: 35.73px;
+    justify-content: center; 
+    
+ } 
+
+ .input input {
+    width: 399px; 
+    height: 50px; 
+    border: 1px solid aqua; 
+    border-radius: 30px; 
+
+ } 
+ .inp-button button{
+    width: 178px; 
+    height: 50px; 
+    background-color: rgb(39, 215, 231); 
+    border-radius: 40px; 
+    border: transparent;
+ } 
+ .input {
+    display: flex; 
+    gap: 10px;
+    justify-content: center;
+ } 
+ .main {
+    margin: auto; 
+    width: 100%; 
+    min-height: 30vh;
+    text-align: center; 
+    background-color: rgb(171, 235, 236); 
+    align-items: center;
+ } 
+
+ .seo {
+    max-width: 1000px; 
+    align-items: center; 
+    justify-content: center; 
+    margin: auto; 
+    padding-top: 30px;
+ } 
+ .text-seo p:nth-child(3) {
+    opacity: 0.8;
+ } 
+ .text-seo p:nth-child(4) {
+    opacity: 0.6;
+ } 
+ .text-seo p:nth-child(5) {
+    opacity: 0.4;
+ }  
+ .text-seo-2 h1{
+        color: blue;
+ } 
+
+
+ .header-1 {
+    max-width: 1540px; 
+    min-height: 288px; 
+    background-color: black;
+ } 
+ .container-hd {
+    display: flex;
+    justify-content: space-around; 
+    color: #fff; 
+    padding-top: 50px;
+    
+ }  
+ .row-hd {
+    display: flex; 
+    justify-content: space-around; 
+    gap: 40px;
+ } 
+ .col h2{
+    float: right;
+ } 
+ .row-hd1 {
+    display: flex; 
+    gap: 60px;
+ } 
+ .row-hd1:nth-child(2) {
+      padding-bottom: 40px; 
+}
+
+
+
+
+
+
+@media  screen and (min-width:767px) and (max-width:1023px) {
+    
+    header .nav {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
+    .list-container {
+        display: block;
+    } 
+    .socials {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:380px) {
+  .start-section {
+    max-width: 300px; 
+    
+} 
+       
+    header .nav {
+        display: none;
+    }
+    .navbar {
+        display: block; 
+        width: 300px; 
+        display: flex; 
+        justify-content: space-between; 
+       
+    }
+    .navbar label {
+      top: 10px; 
+      padding-top: 15px; 
+      padding-left: 280px;
+    }   
+    
+    .text-image .image-head img {
+      width: 300px; 
+      
+    }  
+   
+    .text-image {
+      flex-direction: column; 
+      flex-wrap: wrap; 
+      width: 300px;
+    } 
+    .head-text {
+      display: block; 
+      width: 300px; 
+      padding: 10px; 
+   
+    }  
+    .head-buttons {
+      width: 200px; 
+      display: flex; 
+      gap: 15px;
+    } 
+    .head-buttons button{
+      border-radius: 25px; 
+      background-color: rgb(180, 180, 180); 
+      color: black; 
+      border: transparent; 
+      width: 90px;  
+      height: 20px;
+      font-size: 10px
+}
+    .head-text p { 
+      font-size: 10px; 
+      flex-direction: column; 
+      line-height: 20px; 
+
+    } 
+    .start-text h5{
+      font-size: 15px; 
+      
+      padding-left: 25px;
+    }  
+    .start-section h1 {
+      font-size: 20px ; 
+      text-align: center;
+    }
+    .container {
+      width: 300px; 
+      padding: 20px; 
+
+    } 
+    .row {
+      flex-direction: column; 
+      display: block; 
+      margin: auto;
+    } 
+    .section-2 nav {
+      justify-content: start; 
+    padding-left: 20px; 
+    
+    } 
+    .section-2 nav ul li a {
+      font-size: 10px; 
+      text-align: center;
+    } 
+    .heshteg {
+      padding-left: 30px;
+      display: flex;  
+      gap: 35.73px;
+      justify-content: center; 
+    } 
+    .seo {
+      display: block ;
+      width: 300px; 
+      padding: 20px;
+    } 
+    .header-1 {
+      max-width: 380px; 
+      min-height: 149vh; 
+      background-color: black; 
+      padding: 20px;
+    } 
+    .container-hd {
+      display: block;
+      flex-direction: column; 
+      flex-wrap: wrap;
+      color: #fff; 
+      padding-top: 50px;
+      
+   }  
+   .row-hd {
+      display: block; 
+      flex-direction: column;
+      width: 300px; 
+   } 
+   
+   .row-hd1 {
+      display: block; 
+      flex-direction: column; 
+      flex-wrap: wrap; 
+      float: left;
+   } 
+}
